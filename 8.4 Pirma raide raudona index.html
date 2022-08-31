@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+<style>
+    h1:first-letter{
+    color: green;
+    font-size: 200%;
+        }
+    li:first-letter{
+        color:rgb(0, 153, 255);
+    }
+    p:first-letter{
+        color: red;
+    }
+            p:first-child {
+                        background-color: yellow ;
+                      }
+        p:nth-child(2){
+                        background-color: rgb(0, 255, 128);
+        }
+        p:last-child{
+                        background-color: aqua;
+                      }
+        
+        p:first-line{
+            color: blue;
+        }          
+       
+        p:before {
+            content: "*"
+       }
+
+       p::after {
+            content: "XXXXXXXXXXXXXXXX"
+       }
+
+</style>
+
+</head>
+       <body>
+        <h1>Child</h1>
+            <div>
+                <ul>
+                    <li>Vienas</li>
+                    <li>Du</li>
+                </ul>
+                <ul>
+                    <li>Trys</li>
+                    <li>Keturi</li>
+                </ul>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, perferendis consequuntur omnis minima dolor repellendus ex aliquam aliquid alias ipsam asperiores magnam! Nemo, vero sequi? Itaque, eius. Repellendus, labore quo!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem vitae quidem atque recusandae! Quisquam aspernatur at odit. Eaque optio quidem ratione dolorem nam excepturi in quo, molestias neque itaque corporis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda repellendus nisi libero deleniti aut, laborum eligendi ipsum neque aliquid, corrupti dolore error quas consequatur? Tempore, eveniet? Incidunt tempora dolorem quas!</p>
+            </div>
+          
+       </body>
+</html>

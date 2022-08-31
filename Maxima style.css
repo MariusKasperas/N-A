@@ -1,0 +1,30 @@
+body {
+  background: #eee;
+}
+.container{
+  background: #fff;
+  border-radius:0.5rem ;
+  box-shadow:1px 1px 3px rgba (0,0,0,0.3);
+  margin: 1rem;
+  padding: 1rem;
+ 
+  -webkit-border-radius:0.5rem ;
+  -moz-border-radius:0.5rem ;
+  -ms-border-radius:0.5rem ;
+  -o-border-radius:0.5rem ;
+}
+
+header{
+  text-align: center;
+} 
+header img{
+height:4rem;
+}
+header a{
+color: #000; 
+margin: 0 1rem;
+text-decoration: none;
+}
+
+
+
