@@ -1,0 +1,13 @@
+@keyframes anim {
+    0% { transform: translateX(0%); }
+    5% { transform: translateX(5%) rotate(90deg) scale(1.2); }
+    10% { transform: translateX(10%) rotate(180deg) scale(1.2); }
+    90% { transform: translateX(90%) rotate(180deg) scale(1.2); }
+    95% { transform: translateX(95%) rotate(270deg) scale(1.2); }
+    100% { transform: translateX(100%) rotate(360deg); }
+  }
+  
+  .target {
+    animation: anim 2s;
+    animation-fill-mode: forwards;
+  }

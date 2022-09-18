@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        /* Animacijos kodas */
+            @keyframes example {
+                0% {background-color: #77A33E; left: 0px; top: 0px;}
+                25% {background-color: #d1ff94; left: 200px; top: 0px;}
+                50% {background-color: #baf073; left: 200px; top: 200px;}
+                750% {background-color: #8f2ea3; left: 0px; top: 200px;}
+                100% {background-color: #da73f0; left: 0px; top: 0px;}
+            }  
+        /* Elementas ant kurio naudojame animaciją */
+                div{
+                    width: 100px;
+                    height: 100px;
+                    background-color: #a52536;
+                    position: relative ;
+                    animation-name: example;
+                    animation-duration: 2s;
+                }
+        </style>
+    <title>Document</title>
+</head>
+
+<body>
+<div></div>
+</body>
+
+</html>
