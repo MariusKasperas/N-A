@@ -1,0 +1,51 @@
+$font-stack: Helvetica, sans-serif;
+
+$primary-color: rgb(18, 162, 28);
+
+@mixin theme($theme: DarkGray) {
+
+    background: $theme;
+
+    box-shadow: 0 0 1px rgba($theme, .25);
+
+    color: #fff;
+
+}
+info{
+
+}
+body {
+    font: 100% Helvetica, sans-serif;
+    color: #333;
+}
+
+body {
+    font: 100% $font-stack;    
+}
+p {
+
+    color: $primary-color;
+}
+nav{
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li{display: inline-block;
+    }
+    a{
+        display: block;
+    }
+}
+
+h1 {
+    color: $primary-color;
+}
+.dinosaur-div{
+    background-image: url("https://www.pcgamesn.com/wp-content/uploads/2021/02/best-dinosaur-games-jurassic-world-evolution-2-900x506.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 400px;
+}
+@for
